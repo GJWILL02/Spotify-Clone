@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import Sidebar from "./Sidebar";
-import Headerbar from "./Headerbar";
-import Musicplayer from "./Musicplayer";
-import Display from "./Display";
+import Sidebar from "./components/Sidebar";
+import Headerbar from "./components/Headerbar";
+import Musicplayer from "./components/Musicplayer";
+import Display from "./components/Display";
 import { PlayerContext } from "./context/PlayerContext";
 
 const App = () => {
